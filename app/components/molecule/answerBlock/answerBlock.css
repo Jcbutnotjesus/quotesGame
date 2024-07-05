@@ -3,6 +3,11 @@ img {
   width: 80%;
   height: 80%;
   object-fit: cover;
+  transition: .2s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 .container_right {
@@ -10,11 +15,11 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
-  padding-top: 5%;
+  width: 45%;
+  height: 45%;
+  padding-top: 2.5%;
 }
 
-.name{
+.name {
   font-size: larger;
 }
